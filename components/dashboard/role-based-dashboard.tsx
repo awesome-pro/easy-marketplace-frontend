@@ -42,7 +42,7 @@ function DefaultDashboard() {
       </div>
       <div className="flex items-center justify-center h-[400px]">
         <div className="text-center">
-          <h3 className="text-xl font-semibold mb-2">Welcome to WebVar</h3>
+          <h3 className="text-xl font-semibold mb-2">Welcome to EasyMarketplace</h3>
           <p className="text-muted-foreground">
             Please contact your administrator to set up your account role.
           </p>

@@ -99,7 +99,7 @@ export function Features() {
             Everything You Need to Succeed on AWS Marketplace
           </h2>
           <p className="text-xl text-gray-600">
-            Webvar combines powerful tools and seamless integrations to help you connect, collaborate, and transact with confidence.
+            EasyMarketplace combines powerful tools and seamless integrations to help you connect, collaborate, and transact with confidence.
           </p>
         </div>
 

@@ -97,8 +97,8 @@ export const ConnectionStatus: React.FC<ConnectionStatusProps> = ({
         </CardTitle>
         <CardDescription>
           {status.connected
-            ? `Your AWS account (${status.accountId}) is connected to Webvar`
-            : 'Connect your AWS account to use Webvar with AWS Marketplace'}
+            ? `Your AWS account (${status.accountId}) is connected to EasyMarketplace`
+            : 'Connect your AWS account to use EasyMarketplace with AWS Marketplace'}
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -108,7 +108,7 @@ export const ConnectionStatus: React.FC<ConnectionStatusProps> = ({
               <CheckCircle2 className="h-4 w-4 text-green-500" />
               <AlertTitle>Connected Successfully</AlertTitle>
               <AlertDescription>
-                Your AWS account is properly connected to Webvar. You can now use all AWS Marketplace features.
+                Your AWS account is properly connected to EasyMarketplace. You can now use all AWS Marketplace features.
               </AlertDescription>
             </Alert>
             <div className="grid grid-cols-2 gap-2 text-sm">
@@ -121,7 +121,7 @@ export const ConnectionStatus: React.FC<ConnectionStatusProps> = ({
             <AlertCircle className="h-4 w-4" />
             <AlertTitle>Connection Required</AlertTitle>
             <AlertDescription>
-              To use AWS Marketplace features, you need to connect your AWS account to Webvar.
+              To use AWS Marketplace features, you need to connect your AWS account to EasyMarketplace.
               Follow the onboarding process to set up the connection.
             </AlertDescription>
           </Alert>

@@ -91,7 +91,7 @@ export const RoleArnForm: React.FC<RoleArnFormProps> = ({
                 <FormItem>
                   <FormLabel>CloudFormation Stack Name</FormLabel>
                   <FormControl>
-                    <Input {...field} placeholder="Webvar" />
+                    <Input {...field} placeholder="EasyMarketplace" />
                   </FormControl>
                   <FormDescription>
                     The name of the CloudFormation stack you deployed
@@ -108,7 +108,7 @@ export const RoleArnForm: React.FC<RoleArnFormProps> = ({
                 <FormItem>
                   <FormLabel>IAM Role ARN</FormLabel>
                   <FormControl>
-                    <Input {...field} placeholder="arn:aws:iam::123456789012:role/WebvarAgreementsAPI" />
+                    <Input {...field} placeholder="arn:aws:iam::123456789012:role/EasyMarketplaceAgreementsAPI" />
                   </FormControl>
                   <FormDescription>
                     The Amazon Resource Name (ARN) of the IAM role created by the CloudFormation stack
@@ -130,7 +130,7 @@ export const RoleArnForm: React.FC<RoleArnFormProps> = ({
               <Alert variant="default" className="bg-green-50 border-green-200">
                 <CheckCircle2 className="h-4 w-4 text-green-500" />
                 <AlertTitle>Verification Successful</AlertTitle>
-                <AlertDescription>Your AWS account has been successfully connected to Webvar!</AlertDescription>
+                <AlertDescription>Your AWS account has been successfully connected to EasyMarketplace!</AlertDescription>
               </Alert>
             )}
 

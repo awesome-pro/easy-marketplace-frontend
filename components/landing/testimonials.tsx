@@ -7,14 +7,14 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Webvar has transformed how we distribute our software on AWS Marketplace. The partner discovery feature helped us find resellers we never would have connected with otherwise.",
+    quote: "EasyMarketplace has transformed how we distribute our software on AWS Marketplace. The partner discovery feature helped us find resellers we never would have connected with otherwise.",
     author: "Sarah Johnson",
     role: "CTO at SecureCloud Solutions",
     company: "ISV Partner",
     avatar: "/users/1.png"
   },
   {
-    quote: "As a reseller, Webvar gives us unprecedented visibility into the deal pipeline and makes collaboration with ISVs seamless. Our transaction volume has increased by 40% since joining.",
+    quote: "As a reseller, EasyMarketplace gives us unprecedented visibility into the deal pipeline and makes collaboration with ISVs seamless. Our transaction volume has increased by 40% since joining.",
     author: "Michael Chen",
     role: "VP of Sales at CloudResell",
     company: "Reseller Partner",
@@ -28,7 +28,7 @@ const testimonials = [
     avatar: "/users/3.png"
   },
   {
-    quote: "Managing software purchases through AWS Marketplace used to be a headache. With Webvar, we can track all our offers, contracts, and renewals in one place.",
+    quote: "Managing software purchases through AWS Marketplace used to be a headache. With EasyMarketplace, we can track all our offers, contracts, and renewals in one place.",
     author: "Emily Watson",
     role: "Procurement Manager at HealthDataCorp",
     company: "Buyer",
@@ -55,7 +55,7 @@ export function Testimonials() {
             What Our Users Say
           </h2>
           <p className="text-xl text-gray-600">
-            Join hundreds of companies already transforming their AWS Marketplace experience with Webvar.
+            Join hundreds of companies already transforming their AWS Marketplace experience with EasyMarketplace.
           </p>
         </div>
 

@@ -19,7 +19,7 @@ export function CTA() {
             Ready to Transform Your AWS Marketplace Experience?
           </h2>
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-            Join hundreds of companies already using Webvar to connect, collaborate, and transact on AWS Marketplace.
+            Join hundreds of companies already using EasyMarketplace to connect, collaborate, and transact on AWS Marketplace.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/auth/sign-up">

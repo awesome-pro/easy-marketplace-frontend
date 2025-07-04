@@ -129,7 +129,7 @@ const AWSOnboardingPage = () => {
                 </div>
                 <h2 className="text-2xl font-semibold text-center">AWS Account Connected!</h2>
                 <p className="text-gray-600 text-center mt-2 max-w-md">
-                  Your AWS account is now successfully connected to Webvar. You can now use all AWS Marketplace features.
+                  Your AWS account is now successfully connected to EasyMarketplace. You can now use all AWS Marketplace features.
                 </p>
               </div>
 

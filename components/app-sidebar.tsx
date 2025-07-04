@@ -337,7 +337,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               className="data-[slot=sidebar-menu-button]:!p-1.5"
             >
               <Link href="/dashboard">
-                <Image src="/logo1.png" alt="WebVar" width={100} height={100} />
+                <Image src="/logo1.png" alt="EasyMarketplace" width={100} height={100} />
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>

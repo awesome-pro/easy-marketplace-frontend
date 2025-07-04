@@ -50,7 +50,7 @@ export const defaultOnboardingSteps: AwsOnboardingStep[] = [
   {
     id: 'intro',
     title: 'Introduction',
-    description: 'Learn about connecting your AWS account to Webvar',
+    description: 'Learn about connecting your AWS account to EasyMarketplace',
     completed: false,
     current: true
   },
@@ -78,7 +78,7 @@ export const defaultOnboardingSteps: AwsOnboardingStep[] = [
   {
     id: 'complete',
     title: 'Connection Complete',
-    description: 'Your AWS account is now connected to Webvar',
+    description: 'Your AWS account is now connected to EasyMarketplace',
     completed: false,
     current: false
   }

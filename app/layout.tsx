@@ -20,9 +20,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Webvar",
-  description: "Webvar",
-  keywords: "Webvar",
+  title: "EasyMarketplace",
+  description: "EasyMarketplace",
+  keywords: "EasyMarketplace",
 };
 
 export default function RootLayout({

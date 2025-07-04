@@ -12,7 +12,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             {/* <Logo variant="light" /> */}
             <p className="mt-4 mb-6 text-gray-400 max-w-md">
-              Webvar connects ISVs, Resellers, Distributors, and Buyers for seamless collaboration and transactions on AWS Marketplace.
+              EasyMarketplace connects ISVs, Resellers, Distributors, and Buyers for seamless collaboration and transactions on AWS Marketplace.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -68,7 +68,7 @@ export function Footer() {
         
         <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-500 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Webvar. All rights reserved.
+            &copy; {new Date().getFullYear()} EasyMarketplace. All rights reserved.
           </div>
           <div className="flex space-x-6">
             <Link href="/terms" className="text-gray-500 hover:text-white transition-colors text-sm">

@@ -50,7 +50,7 @@ export const AwsAuthDialog = ({ isOpen, onClose, currentPath }: AwsAuthDialogPro
         <div className="py-4">
           <div className="space-y-4">
             <p className="text-sm text-gray-600">
-              Setting up AWS authentication allows Webvar to securely access AWS resources on your behalf. This is required to use the full functionality of the platform.
+              Setting up AWS authentication allows EasyMarketplace to securely access AWS resources on your behalf. This is required to use the full functionality of the platform.
             </p>
             <ul className="list-disc pl-5 space-y-2 text-sm text-gray-600">
               <li>Secure connection to AWS services</li>

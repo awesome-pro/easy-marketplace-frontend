@@ -8,7 +8,7 @@ export function Logo({ className }: LogoProps) {
   return (
       <Image 
         src="/logo1.png"
-        alt="Webvar Logo"
+        alt="EasyMarketplace Logo"
         width={200}
         height={80}
         onClick={() => window.location.href = '/'}

@@ -20,7 +20,7 @@ export function Hero() {
               Connect, Collaborate, and <span className="text-primary">Transact</span> on AWS Marketplace
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Webvar is the ultimate platform connecting ISVs, Resellers, Distributors, and Buyers for seamless collaboration and transactions on AWS Marketplace.
+              EasyMarketplace is the ultimate platform connecting ISVs, Resellers, Distributors, and Buyers for seamless collaboration and transactions on AWS Marketplace.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/auth/sign-up">
@@ -49,7 +49,7 @@ export function Hero() {
                 ))}
               </div>
               <p className="text-gray-600">
-                <span className="font-semibold">500+</span> companies already using Webvar
+                <span className="font-semibold">500+</span> companies already using EasyMarketplace
               </p>
             </div>
           </motion.div>
@@ -64,7 +64,7 @@ export function Hero() {
               <div className="aspect-[16/9] relative">
                 <Image
                   src="/images/3.png"
-                  alt="Webvar Dashboard"
+                  alt="EasyMarketplace Dashboard"
                   fill
                   className="object-cover"
                 />

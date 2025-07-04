@@ -29,7 +29,7 @@ export const CloudFormationForm: React.FC<CloudFormationFormProps> = ({
       <CardHeader className="px-5">
         <CardTitle className="text-xl">Deploy CloudFormation Stack</CardTitle>
         <CardDescription>
-          Create the necessary IAM resources in your AWS account to allow Webvar to access your AWS Marketplace data
+          Create the necessary IAM resources in your AWS account to allow EasyMarketplace to access your AWS Marketplace data
         </CardDescription>
       </CardHeader>
       <CardContent className="px-5 space-y-6">
@@ -57,15 +57,15 @@ export const CloudFormationForm: React.FC<CloudFormationFormProps> = ({
                   <span>{stackName}</span>
                 </div>
                 <div className="grid grid-cols-2 gap-2">
-                  <span className="font-medium">WebvarRoleName:</span>
+                  <span className="font-medium">EasyMarketplaceRoleName:</span>
                   <span>{roleName}</span>
                 </div>
                 <div className="grid grid-cols-2 gap-2">
-                  <span className="font-medium">WebvarPolicyName:</span>
+                  <span className="font-medium">EasyMarketplacePolicyName:</span>
                   <span>{policyName}</span>
                 </div>
                 <div className="grid grid-cols-2 gap-2">
-                  <span className="font-medium">WebvarServiceAccountArn:</span>
+                  <span className="font-medium">EasyMarketplaceServiceAccountArn:</span>
                   <span className="break-all">{serviceAccountArn}</span>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export const CloudFormationForm: React.FC<CloudFormationFormProps> = ({
             <li>
               <p className="mb-1">Find the IAM role ARN in the stack outputs</p>
               <p className="text-sm text-gray-500">
-                Go to the "Outputs" tab of your stack and look for the "WebvarRoleArn" value.
+                Go to the "Outputs" tab of your stack and look for the "EasyMarketplaceRoleArn" value.
                 It should look like: <code className="bg-gray-100  px-1 rounded">arn:aws:iam::123456789012:role/{roleName}</code>
               </p>
             </li>
@@ -106,9 +106,9 @@ export const CloudFormationForm: React.FC<CloudFormationFormProps> = ({
 };
 
 export const defaultCloudFormationProps = {
-  cloudFormationUrl: 'https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https%3A%2F%2Fcf-templates-prod-cluster.s3.amazonaws.com%2Fwebvar_connect.json&stackName=Webvar&param_WebvarPolicyName=WebvarAgreementsAPI&param_WebvarServiceAccountArn=arn%3Aaws%3Aiam%3A%3A342635257821%3Auser%2Fservice-account%2Fwv-agreements-service-account&param_WebvarRoleName=WebvarAgreementsAPI',
-  stackName: 'Webvar',
-  roleName: 'WebvarAgreementsAPI',
-  policyName: 'WebvarAgreementsAPI',
+  cloudFormationUrl: 'https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https%3A%2F%2Fcf-templates-prod-cluster.s3.amazonaws.com%2FEasyMarketplace_connect.json&stackName=EasyMarketplace&param_EasyMarketplacePolicyName=EasyMarketplaceAgreementsAPI&param_EasyMarketplaceServiceAccountArn=arn%3Aaws%3Aiam%3A%3A342635257821%3Auser%2Fservice-account%2Fwv-agreements-service-account&param_EasyMarketplaceRoleName=EasyMarketplaceAgreementsAPI',
+  stackName: 'EasyMarketplace',
+  roleName: 'EasyMarketplaceAgreementsAPI',
+  policyName: 'EasyMarketplaceAgreementsAPI',
   serviceAccountArn: 'arn:aws:iam::342635257821:user/service-account/wv-agreements-service-account'
 };

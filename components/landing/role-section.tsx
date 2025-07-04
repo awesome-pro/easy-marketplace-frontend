@@ -15,7 +15,7 @@ const roles = [
     title: 'For Independent Software Vendors',
     description: 'Scale your AWS Marketplace presence and connect with resellers to expand your reach.',
     features: [
-      'Duplicate listings via Webvar integration',
+      'Duplicate listings via EasyMarketplace integration',
       'Track listing performance and engagement',
       'View disbursement data tied to AWS ID',
       'Connect with resellers and distributors',
@@ -86,7 +86,7 @@ export function RoleSection() {
             Tailored for Your Role
           </h2>
           <p className="text-xl text-gray-600">
-            Webvar provides specialized features and workflows for each participant in the AWS Marketplace ecosystem.
+            EasyMarketplace provides specialized features and workflows for each participant in the AWS Marketplace ecosystem.
           </p>
         </div>
 

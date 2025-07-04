@@ -105,7 +105,7 @@ export const AwsConfigForm: React.FC<AwsConfigFormProps> = ({
               <li>Go to the AWS CloudFormation console</li>
               <li>Select the stack you created</li>
               <li>Go to the "Outputs" tab</li>
-              <li>Look for the "WebvarS3Bucket", "WebvarS3Prefix", and "WebvarSNSTopic" keys and copy their values</li>
+              <li>Look for the "EasyMarketplaceS3Bucket", "EasyMarketplaceS3Prefix", and "EasyMarketplaceSNSTopic" keys and copy their values</li>
             </ol>
           </AlertDescription>
         </Alert>
@@ -137,7 +137,7 @@ export const AwsConfigForm: React.FC<AwsConfigFormProps> = ({
                 <FormItem>
                   <FormLabel>S3 Bucket Name</FormLabel>
                   <FormControl>
-                    <Input {...field} placeholder="webvar-data-bucket" />
+                    <Input {...field} placeholder="EasyMarketplace-data-bucket" />
                   </FormControl>
                   <FormDescription>
                     The name of the S3 bucket where your data will be stored
@@ -171,7 +171,7 @@ export const AwsConfigForm: React.FC<AwsConfigFormProps> = ({
                 <FormItem>
                   <FormLabel>SNS Topic ARN</FormLabel>
                   <FormControl>
-                    <Input {...field} placeholder="arn:aws:sns:us-east-1:123456789012:webvar-topic" />
+                    <Input {...field} placeholder="arn:aws:sns:us-east-1:123456789012:EasyMarketplace-topic" />
                   </FormControl>
                   <FormDescription>
                     The Amazon Resource Name (ARN) of the SNS topic for notifications
