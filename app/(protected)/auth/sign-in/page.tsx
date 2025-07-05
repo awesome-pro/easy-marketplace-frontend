@@ -110,7 +110,7 @@ export default function SignUp() {
                     type="submit" 
                     disabled={isLoading}
                   >
-                    {isLoading ? 'Signing In...' : 'Sign In'}
+                    {isLoading ? 'Please wait...' : 'Sign In'}
                 </Button>
             </div>
           </form>

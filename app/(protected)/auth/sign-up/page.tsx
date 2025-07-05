@@ -178,7 +178,7 @@ export default function SignUp() {
                     type="submit" 
                     disabled={isLoading}
                   >
-                    {isLoading ? 'Creating Account...' : 'Create Account'}
+                    {isLoading ? 'Please wait...' : 'Create Account'}
                   </Button>
             </div>
           </form>

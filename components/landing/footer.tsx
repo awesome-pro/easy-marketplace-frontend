@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { FaFacebookSquare, FaLinkedin, FaInstagram, FaGithubSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Logo } from '../logo';
 
 export function Footer() {
   return (
@@ -10,7 +11,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           <div className="lg:col-span-2">
-            {/* <Logo variant="light" /> */}
+            <Logo />
             <p className="mt-4 mb-6 text-gray-400 max-w-md">
               EasyMarketplace connects ISVs, Resellers, Distributors, and Buyers for seamless collaboration and transactions on AWS Marketplace.
             </p>
@@ -26,9 +27,6 @@ export function Footer() {
               </Link>
               <Link href="#" className="text-gray-400 hover:text-white transition-colors">
               <FaInstagram />
-              </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
-              <FaGithubSquare />
               </Link>
             </div>
           </div>
