@@ -14,6 +14,7 @@ import { SelectButtons } from '@/components/select-button';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import Link from 'next/link';
 import { Eye, EyeOff } from 'lucide-react';
+import { Logo } from '@/components/logo';
 
 
 enum UserRole {
@@ -83,10 +84,10 @@ export default function SignUp() {
   };
 
   return (
-    <section className="h-screen w-screen flex items-center justify-center bg-slate-200 dark:bg-gradient-to-br from-slate-700 to-slate-900">
+    <section className="h-screen w-screen flex flex-col gap-10 items-center justify-center bg-slate-200 dark:bg-gradient-to-br from-slate-700 to-slate-900">
         <Card className="shadow-2xl rounded-2xl border-0  md:max-w-2xl mx-auto px-4 py-8">
         <CardContent className="pt-4 ">
-
+        
         <h1 className="text-2xl font-bold text-center mb-4">Sign Up</h1>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
@@ -166,21 +167,13 @@ export default function SignUp() {
             />
 
 
-            <div className="flex flex-col md:flex-row justify-end gap-2 pt-2">
-              <Button 
-                type="button" 
-                variant="outline" 
-                onClick={() => form.reset()}
-              >
-                Cancel
-              </Button>
               <Button 
                     type="submit" 
                     disabled={isLoading}
+                    className='w-full'
                   >
                     {isLoading ? 'Please wait...' : 'Create Account'}
-                  </Button>
-            </div>
+                </Button>
           </form>
         </Form>
         </CardContent>
@@ -188,6 +181,8 @@ export default function SignUp() {
          <p className='text-center text-sm text-muted-foreground'> Already have an account? <Link href="/auth/sign-in" className="text-primary">Sign In</Link></p>
         </CardFooter>
         </Card>
+
+        <Logo />  
   </section>
   );
 }

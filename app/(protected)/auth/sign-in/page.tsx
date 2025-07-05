@@ -13,6 +13,7 @@ import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import Link from 'next/link';
 import { toast } from 'sonner';
 import { Eye, EyeOff } from 'lucide-react';
+import { Logo } from '@/components/logo';
 
 const formSchema = z.object({
   email: z.string().email({ message: "Invalid email address" }),
@@ -60,7 +61,7 @@ export default function SignUp() {
   };
 
   return (
-    <section className="h-screen w-screen flex items-center justify-center bg-slate-200 dark:bg-gradient-to-br from-slate-700 to-slate-900">
+    <section className="h-screen w-screen flex flex-col gap-10 items-center justify-center bg-slate-200 dark:bg-gradient-to-br from-slate-700 to-slate-900">
         <Card className="shadow-2xl rounded-2xl border-0 w-[90%] md:w-[500px] mx-auto px-4 py-8">
         <CardContent className="pt-4 ">
 
@@ -120,6 +121,10 @@ export default function SignUp() {
           <p className='text-center text-sm text-muted-foreground'> Don't have an account? <Link href="/auth/sign-up" className="text-primary">Sign Up</Link></p>
         </CardFooter>
         </Card>
+
+        <div className='flex flex-col items-center justify-center gap-2'>
+          <Logo />
+        </div>
   </section>
   );
 }
