@@ -23,7 +23,7 @@ const roles = [
       'Manage the full post-listing journey'
     ],
     cta: 'Start Selling',
-    image: '/images/3.png'
+    image: '/images/1.png'
   },
   {
     id: 'reseller',
@@ -39,7 +39,7 @@ const roles = [
       'Track commission and performance'
     ],
     cta: 'Start Reselling',
-    image: '/images/11.png'
+    image: '/images/5.png'
   },
   {
     id: 'distributor',
@@ -55,7 +55,7 @@ const roles = [
       'Optimize partner relationships'
     ],
     cta: 'Start Distributing',
-    image: '/images/12.png'
+    image: '/images/3.png'
   },
   {
     id: 'buyer',
@@ -71,7 +71,7 @@ const roles = [
       'Streamline procurement process'
     ],
     cta: 'Start Buying',
-    image: '/images/13.png'
+    image: '/images/9.png'
   }
 ];
 

@@ -8,25 +8,25 @@ const steps = [
     number: '01',
     title: 'Connect Your AWS ID',
     description: 'Sign up and connect your AWS ID to personalize your experience and enable secure transactions.',
-    image: '/images/4.png'
+    image: '/images/12.png'
   },
   {
     number: '02',
     title: 'Discover Partners',
     description: 'Find the perfect ISVs, resellers, or distributors based on your business needs and criteria.',
-    image: '/images/5.png'
+    image: '/images/1.png'
   },
   {
     number: '03',
     title: 'Collaborate on Deals',
     description: 'Work together in shared deal rooms to finalize offers, terms, and agreements.',
-    image: '/images/6.png'
+    image: '/images/3.png'
   },
   {
     number: '04',
     title: 'Transact Seamlessly',
     description: 'Complete transactions through AWS Marketplace with automated workflows and tracking.',
-    image: '/images/1.png'
+    image: '/images/5.png'
   }
 ];
 
