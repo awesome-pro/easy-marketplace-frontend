@@ -71,7 +71,7 @@ const roles = [
       'Streamline procurement process'
     ],
     cta: 'Start Buying',
-    image: '/images/9.png'
+    image: '/images/11.png'
   }
 ];
 
